@@ -11,7 +11,9 @@ import Lynch1
 import pyclimate.svdeofs
 from Scientific.IO.NetCDF import *
 from pyclimate.svdeofs import *
+
 from pyclimate.ncstruct import *
+
 sys.path.insert(0,"/export/bonfils2/NEWPYFORT/TRANSFO/build/lib.linux-i686-2.5")
 #import Lynch
 import numpy.oldnumeric as Numeric
