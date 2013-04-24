@@ -32,16 +32,26 @@ letters='e:i:f:r'
 keywords=['exper=','ice=','filt=','rang=']
 oexpt='default'
 oice='default'
+
 lowpass='default'
+
 Pdateclimo='default'
+
 opts,pargs=getopt.getopt(args,letters,keywords)
+
 for o,p in opts:
+
     if o in ['-e','--exper']:
+
         oexpt=p
+
     if o in ['-i','--ice']:
         oice=p
+
     if o in ['-f','--filt']:
+
         lowpass=p
+
     if o in ['-r','--rang']:
         Pdateclimo=p
 ## ###################################
